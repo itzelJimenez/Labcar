@@ -5,8 +5,28 @@ nav{
 #portada{
 	background-image: url(../imgs/portada.jpg);
 	background-position: center;
-	background-size: cover;
+	background-size: 100% 80%;
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 800px;
+}
+.bg-orange{
+	background-color: orange;
+}
+#portada>div{
+	margin-top: 250px;
+	height: 380px;
+	padding: 20px;
+}
+#portada>div>h2{
+	line-height: .4;
+}
+#portada>div>h3{
+	line-height: 3;
+}
+.whithe-letter{
+	color: #fff;
+}
+.white-log{
+	width: 20%;
 }
