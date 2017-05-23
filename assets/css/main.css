@@ -5,10 +5,10 @@ nav{
 #portada{
 	background-image: url(../imgs/portada.jpg);
 	background-position: center;
-	background-size: 100% 80%;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 800px;
+	height: 700px;
 }
 .bg-orange{
 	background-color: orange;
@@ -24,9 +24,26 @@ nav{
 #portada>div>h3{
 	line-height: 3;
 }
-.whithe-letter{
+.white-letter{
 	color: #fff;
 }
 .white-log{
 	width: 20%;
+}
+.img{
+	width: 90%;
+}
+.letter-m{
+	font-size: 18px;
+}
+.borde{
+	border:solid white 1px;
+}
+#descarga{
+	height: 500px;
+	display: flex;
+	align-items: center;
+}
+.p-3{
+	padding: 3% 0 3% 0;
 }
