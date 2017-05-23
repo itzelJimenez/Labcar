@@ -6,7 +6,7 @@ nav{
 	background-color: #fff;
 	height: 100px;
 }
-#portada{
+#portada,#portadaMovil{
 	background-image: url(../imgs/taxi.jpg);
 	background-position: bottom;
 	background-size: cover;
@@ -19,7 +19,7 @@ nav{
 }
 #portada>div{
 	margin-top: 190px;
-	height: 330px;
+	height: 360px;
 	padding: 20px;
 }
 #portada>div>h2{
@@ -81,4 +81,31 @@ input{
 }
 .p-1{
 	padding: 1%;
+}
+#portadaMovil{
+	display: none;
+}
+@media (max-width: 480px){
+	#portada{
+		display: none;
+	}
+	#portadaMovil{
+		display: block;
+		margin-top: 80px;
+		height: 360px;
+		padding: 20px;
+	}
+	#segundaSeccion{
+		height: 400px;
+		align-items: center;
+	}
+	.p-3{
+	padding: 1% 0 1% 0;
+	}
+	#textoDescarga{
+		display: none;
+	}
+	#ocultaFooter{
+		display: none;
+	}
 }
