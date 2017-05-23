@@ -70,3 +70,15 @@ nav{
 .mt-5{
 	margin-top: 30%;
 }
+#cuartaSeccion{
+	height: 400px;
+}
+#cuartaSeccion>div>div{
+	margin-bottom: 5%;
+}
+input{
+	color: #fff;
+}
+.p-1{
+	padding: 1%;
+}
