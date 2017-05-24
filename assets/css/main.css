@@ -79,12 +79,18 @@ nav{
 input{
 	color: #fff;
 }
+.form-control{
+	width: 80%;
+	display: inline-block;
+	margin-left: 3%;
+}
 .p-1{
 	padding: 1%;
 }
 #portadaMovil{
 	display: none;
 }
+
 @media (max-width: 480px){
 	#portada{
 		display: none;
